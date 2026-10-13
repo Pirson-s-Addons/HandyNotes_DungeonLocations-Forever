@@ -108,7 +108,7 @@ frame:RegisterEvent("PLAYER_LOGIN")
 frame:SetScript("OnEvent", function()
     HandyNotes:RegisterPluginDB("DungeonLocationsForever", handler, {
         type = "group",
-        name = "DungeonLocations (Forever)",
+        name = "Dungeon & Raid Locations (Forever)",
         desc = L["PLUGIN_DESC"],
         args = { desc = { type = "description", name = L["PLUGIN_DESC"], order = 0 } },
     })

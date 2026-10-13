@@ -1,4 +1,4 @@
-<h1 align="center">HandyNotes: DungeonLocations (Forever)</h1>
+<h1 align="center">HandyNotes: Dungeon & Raid Locations (Forever)</h1>
 
 <p align="center">
   <b>Todas las entradas de mazmorras y bandas de WoW Forever en tu mapa</b>
