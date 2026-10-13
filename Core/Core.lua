@@ -4,7 +4,7 @@ local L = ns.L
 -- Plugin de HandyNotes: un pin en la entrada de cada mazmorra y banda (Data/Entrances.lua),
 -- en su zona, en el minimapa y en el mapa del continente.
 
-local LOGO = "Interface\\AddOns\\HandyNotes_DungeonLocations-Forever\\img\\logo_hndl"
+local LOGO = "Interface\\AddOns\\HandyNotes_DungeonRaidLocations-Forever\\img\\logo_hndl"
 local ZONE_SCALE, CONTINENT_SCALE = 3, 2.25
 
 -- ns.points[mapID][coord] = { entrada, ... } (varias si comparten puerta: Roca Negra)
@@ -106,7 +106,7 @@ end
 local frame = CreateFrame("Frame")
 frame:RegisterEvent("PLAYER_LOGIN")
 frame:SetScript("OnEvent", function()
-    HandyNotes:RegisterPluginDB("DungeonLocationsForever", handler, {
+    HandyNotes:RegisterPluginDB("DungeonRaidLocationsForever", handler, {
         type = "group",
         name = "Dungeon & Raid Locations (Forever)",
         desc = L["PLUGIN_DESC"],

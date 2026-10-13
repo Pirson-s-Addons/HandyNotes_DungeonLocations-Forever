@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/Pirson-s-Addons/HandyNotes_DungeonLocations-Forever/releases/latest">
-<img src="https://img.shields.io/github/v/release/Pirson-s-Addons/HandyNotes_DungeonLocations-Forever?style=for-the-badge&color=A78BFA">
+<a href="https://github.com/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever/releases/latest">
+<img src="https://img.shields.io/github/v/release/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever?style=for-the-badge&color=A78BFA">
 </a>
 <img src="https://img.shields.io/badge/WoW-Forever-C4B5FD?style=for-the-badge">
 <a href="LICENSE">
@@ -32,8 +32,8 @@ A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin that pin
 - Translated into 20 languages.
 
 ## Installation
-1. Download the zip from the [latest release](https://github.com/Pirson-s-Addons/HandyNotes_DungeonLocations-Forever/releases/latest).
-2. Extract the `HandyNotes_DungeonLocations-Forever` folder into `World of Warcraft/_classic_beta_/Interface/AddOns/`.
+1. Download the zip from the [latest release](https://github.com/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever/releases/latest).
+2. Extract the `HandyNotes_DungeonRaidLocations-Forever` folder into `World of Warcraft/_classic_beta_/Interface/AddOns/`.
 3. Restart WoW and enable the addon.
 
 ## Usage

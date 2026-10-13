@@ -2,7 +2,7 @@ local _, ns = ...
 
 -- Entradas de mazmorras y bandas de WoW Forever: las mismas que DungeonQuestAtlas
 -- (Data/Dungeons.lua y Data/Raids.lua, campo entrance). Si cambian alli, cambiarlas
--- aqui: _project/tests/test_handynotes_dungeonlocations.lua lo comprueba.
+-- aqui: _project/tests/test_handynotes_dungeonraidlocations.lua lo comprueba.
 -- name: respaldo en ingles; el nombre que se ve lo da el juego con
 -- GetRealZoneText(instanceID), mas la parte (L[part]) si comparten instancia.
 -- size: banda (jugadores). mapID: uiMapID de la zona; x, y: 0-100.

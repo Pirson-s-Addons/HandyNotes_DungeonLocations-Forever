@@ -4,7 +4,7 @@
 ## Version: 1.00
 ## Author: Pirson
 
-## IconTexture: Interface\AddOns\HandyNotes_DungeonLocations-Forever\img\logo_hndl
+## IconTexture: Interface\AddOns\HandyNotes_DungeonRaidLocations-Forever\img\logo_hndl
 ## Title: |cffd597ffHandyNotes: Dungeon & Raid Locations (Forever)|r
 
 # https://warcraft.wiki.gg/wiki/Addon_Categories
