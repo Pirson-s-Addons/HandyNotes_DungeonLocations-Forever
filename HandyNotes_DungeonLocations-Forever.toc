@@ -1,0 +1,128 @@
+## Interface: 16001
+# Interfaz de la beta 1.60.1 de WoW Forever (como DungeonQuestAtlas). Comprobar en el
+# cliente con /dump select(4, GetBuildInfo()) y actualizar si cambia en el lanzamiento.
+## Version: 1.00
+## Author: Pirson
+
+## IconTexture: Interface\AddOns\HandyNotes_DungeonLocations-Forever\img\logo_hndl
+## Title: |cffd597ffHandyNotes: DungeonLocations (Forever)|r
+
+# https://warcraft.wiki.gg/wiki/Addon_Categories
+## Category: Map & Minimap
+## Category-deDE: Karte & Minikarte
+## Category-esES: Mapa y minimapa
+## Category-esMX: Mapa y minimapa
+## Category-frFR: Carte et minicarte
+## Category-itIT: Mappa e minimappa
+## Category-koKR: 지도 및 미니맵
+## Category-ptBR: Mapa e minimapa
+## Category-ruRU: Карта и миникарта
+## Category-zhCN: 地图和小地图
+## Category-zhTW: 地圖與小地圖
+## Category-plPL: Mapa i minimapa
+## Category-svSE: Karta och minikarta
+## Category-noNO: Kart og minikart
+## Category-csCZ: Mapa a minimapa
+## Category-nlNL: Kaart en minikaart
+## Category-roRO: Hartă și minihartă
+## Category-huHU: Térkép és minitérkép
+## Category-elGR: Χάρτης και μικρός χάρτης
+## Category-ukUA: Мапа й мінімапа
+## Category-daDK: Kort og minikort
+## Category-fiFI: Kartta ja minikartta
+## Category-skSK: Mapa a minimapa
+## Category-bgBG: Карта и миникарта
+## Category-hrHR: Karta i mini-karta
+## Category-srRS: Mapa i mini-mapa
+## Category-slSI: Zemljevid in mini zemljevid
+## Category-ltLT: Žemėlapis ir mini žemėlapis
+## Category-lvLV: Karte un minikarte
+## Category-etEE: Kaart ja minikaart
+## Category-idID: Peta dan minimap
+## Category-msMY: Peta dan peta mini
+## Category-faIR: نقشه و مینی‌مپ
+## Category-heIL: מפה ומפה מוקטנת
+## Category-bnBD: মানচিত্র ও মিনিম্যাপ
+## Category-urPK: نقشہ اور منی میپ
+## Category-taIN: வரைபடம் மற்றும் சிறு வரைபடம்
+## Category-teIN: పటం మరియు చిన్న పటం
+## Category-trTR: Harita ve mini harita
+## Category-jaJP: マップとミニマップ
+## Category-arSA: الخريطة والخريطة المصغرة
+## Category-hiIN: नक्शा और मिनीमैप
+## Category-thTH: แผนที่และแผนที่ย่อ
+## Category-viVN: Bản đồ và bản đồ nhỏ
+
+## Notes: |cFF33CCFFShows the entrances of WoW Forever dungeons and raids on the map.|r
+## Notes-deDE: |cFF33CCFFZeigt die Eingänge der Dungeons und Schlachtzüge von WoW Forever auf der Karte.|r
+## Notes-esES: |cFF33CCFFMuestra en el mapa las entradas de las mazmorras y bandas de WoW Forever.|r
+## Notes-esMX: |cFF33CCFFMuestra en el mapa las entradas de las mazmorras y bandas de WoW Forever.|r
+## Notes-frFR: |cFF33CCFFAffiche sur la carte les entrées des donjons et raids de WoW Forever.|r
+## Notes-itIT: |cFF33CCFFMostra sulla mappa gli ingressi delle spedizioni e delle incursioni di WoW Forever.|r
+## Notes-koKR: |cFF33CCFFWoW Forever 던전과 공격대의 입구를 지도에 표시합니다.|r
+## Notes-ptBR: |cFF33CCFFMostra no mapa as entradas das masmorras e raides do WoW Forever.|r
+## Notes-ruRU: |cFF33CCFFПоказывает на карте входы в подземелья и рейды WoW Forever.|r
+## Notes-zhCN: |cFF33CCFF在地图上显示 WoW Forever 地下城和团队副本的入口。|r
+## Notes-zhTW: |cFF33CCFF在地圖上顯示 WoW Forever 地城與團隊副本的入口。|r
+## Notes-plPL: |cFF33CCFFPokazuje na mapie wejścia do lochów i rajdów WoW Forever.|r
+## Notes-svSE: |cFF33CCFFVisar ingångarna till WoW Forevers dungeons och raider på kartan.|r
+## Notes-noNO: |cFF33CCFFViser inngangene til dungeons og raids i WoW Forever på kartet.|r
+## Notes-csCZ: |cFF33CCFFZobrazuje na mapě vchody do dungeonů a raidů WoW Forever.|r
+## Notes-nlNL: |cFF33CCFFToont de ingangen van de dungeons en raids van WoW Forever op de kaart.|r
+## Notes-roRO: |cFF33CCFFAfișează pe hartă intrările în temnițele și raidurile din WoW Forever.|r
+## Notes-huHU: |cFF33CCFFMegmutatja a térképen a WoW Forever kazamatáinak és raidjeinek bejáratait.|r
+## Notes-elGR: |cFF33CCFFΔείχνει στον χάρτη τις εισόδους των dungeons και raids του WoW Forever.|r
+## Notes-ukUA: |cFF33CCFFПоказує на мапі входи до підземель і рейдів WoW Forever.|r
+## Notes-daDK: |cFF33CCFFViser indgangene til WoW Forevers dungeons og raids på kortet.|r
+## Notes-fiFI: |cFF33CCFFNäyttää kartalla WoW Foreverin luolastojen ja raidien sisäänkäynnit.|r
+## Notes-skSK: |cFF33CCFFZobrazuje na mape vchody do dungeonov a raidov WoW Forever.|r
+## Notes-bgBG: |cFF33CCFFПоказва на картата входовете на подземията и рейдовете в WoW Forever.|r
+## Notes-hrHR: |cFF33CCFFPrikazuje na karti ulaze u tamnice i raidove WoW Forevera.|r
+## Notes-srRS: |cFF33CCFFPrikazuje na mapi ulaze u tamnice i rejdove WoW Forevera.|r
+## Notes-slSI: |cFF33CCFFNa zemljevidu prikaže vhode v ječe in raide WoW Forever.|r
+## Notes-ltLT: |cFF33CCFFŽemėlapyje rodo WoW Forever požemių ir reidų įėjimus.|r
+## Notes-lvLV: |cFF33CCFFKartē parāda WoW Forever pazemju un reidu ieejas.|r
+## Notes-etEE: |cFF33CCFFNäitab kaardil WoW Foreveri koobaste ja reidide sissepääse.|r
+## Notes-idID: |cFF33CCFFMenampilkan pintu masuk dungeon dan raid WoW Forever di peta.|r
+## Notes-msMY: |cFF33CCFFMenunjukkan pintu masuk dungeon dan raid WoW Forever pada peta.|r
+## Notes-faIR: |cFF33CCFFورودی سیاهچال‌ها و ریدهای WoW Forever را روی نقشه نشان می‌دهد.|r
+## Notes-heIL: |cFF33CCFFמציג על המפה את הכניסות למבוכים ולפשיטות של WoW Forever.|r
+## Notes-bnBD: |cFF33CCFFমানচিত্রে WoW Forever-এর ডানজন ও রেইডের প্রবেশপথ দেখায়।|r
+## Notes-urPK: |cFF33CCFFنقشے پر WoW Forever کے ڈنجنز اور ریڈز کے داخلی راستے دکھاتا ہے۔|r
+## Notes-taIN: |cFF33CCFFWoW Forever நிலவறைகள் மற்றும் ரெய்டுகளின் நுழைவாயில்களை வரைபடத்தில் காட்டுகிறது.|r
+## Notes-teIN: |cFF33CCFFWoW Forever డంజన్లు మరియు రైడ్‌ల ప్రవేశాలను పటంలో చూపిస్తుంది.|r
+## Notes-trTR: |cFF33CCFFWoW Forever zindanlarının ve baskınlarının girişlerini haritada gösterir.|r
+## Notes-jaJP: |cFF33CCFFWoW Forever のダンジョンとレイドの入口をマップに表示します。|r
+## Notes-arSA: |cFF33CCFFيعرض على الخريطة مداخل الزنزانات والغارات في WoW Forever.|r
+## Notes-hiIN: |cFF33CCFFनक्शे पर WoW Forever के डंजन और रेड के प्रवेश द्वार दिखाता है।|r
+## Notes-thTH: |cFF33CCFFแสดงทางเข้าดันเจี้ยนและเรดของ WoW Forever บนแผนที่|r
+## Notes-viVN: |cFF33CCFFHiển thị lối vào các hầm ngục và raid của WoW Forever trên bản đồ.|r
+
+## RequiredDeps: HandyNotes
+
+# Solo WoW Forever: el sufijo _Camelot es el game type que busca ese cliente, y
+# sin un .toc generico ningun otro cliente lista el addon (como DungeonQuestAtlas).
+
+Locales/enUS.lua
+Locales/esES.lua
+Locales/deDE.lua
+Locales/frFR.lua
+Locales/itIT.lua
+Locales/ptBR.lua
+Locales/ruRU.lua
+Locales/koKR.lua
+Locales/zhCN.lua
+Locales/zhTW.lua
+Locales/plPL.lua
+Locales/svSE.lua
+Locales/noNO.lua
+Locales/trTR.lua
+Locales/jaJP.lua
+Locales/arSA.lua
+Locales/hiIN.lua
+Locales/thTH.lua
+Locales/viVN.lua
+Locales/csCZ.lua
+
+Data/Entrances.lua
+Core/Core.lua
