@@ -100,6 +100,8 @@
 
 ## RequiredDeps: HandyNotes
 
+## X-Curse-Project-ID: 1743547
+
 # Solo WoW Forever: el sufijo _Camelot es el game type que busca ese cliente, y
 # sin un .toc generico ningun otro cliente lista el addon (como DungeonQuestAtlas).
 

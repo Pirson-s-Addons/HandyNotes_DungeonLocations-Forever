@@ -32,7 +32,7 @@ Plugin de [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) que mar
 - Traducido a 20 idiomas.
 
 ## Instalación
-1. Descarga el zip de la [última release](https://github.com/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever/releases/latest).
+1. Descarga el zip de la [última release](https://github.com/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever/releases/latest) o de [CurseForge](https://www.curseforge.com/wow/addons/handynotes-dungeon-raid-locations-forever).
 2. Extrae la carpeta `HandyNotes_DungeonRaidLocations-Forever` en `World of Warcraft/_classic_beta_/Interface/AddOns/`.
 3. Reinicia WoW y activa el addon.
 

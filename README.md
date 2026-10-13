@@ -32,7 +32,7 @@ A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin that pin
 - Translated into 20 languages.
 
 ## Installation
-1. Download the zip from the [latest release](https://github.com/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever/releases/latest).
+1. Download the zip from the [latest release](https://github.com/Pirson-s-Addons/HandyNotes_DungeonRaidLocations-Forever/releases/latest) or from [CurseForge](https://www.curseforge.com/wow/addons/handynotes-dungeon-raid-locations-forever).
 2. Extract the `HandyNotes_DungeonRaidLocations-Forever` folder into `World of Warcraft/_classic_beta_/Interface/AddOns/`.
 3. Restart WoW and enable the addon.
 
